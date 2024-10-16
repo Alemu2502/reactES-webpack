@@ -1,0 +1,42 @@
+{
+  "name": "my-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.21.0",
+    "@babel/preset-react": "^7.21.0",
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "file-loader": "^6.2.0",
+    "globals": "^15.9.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.95.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  }
+}
