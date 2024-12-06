@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "webpack ",
     "dev": "webpack serve --config webpack.config.js",
     "build": "webpack --config webpack.config.js",
     "lint": "eslint ."
