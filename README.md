@@ -26,32 +26,36 @@ This application fetches and displays data from an external API, implements form
 - Advanced Webpack configuration for both development and production environments.
 
 # Technologies Used
-1. React
-2. Webpack
-3. Babel
-4. CSS
+1. js
+2. css
+3. React
+4. Webpack
+5. Babel
+
 
 # Getting Started
 
 Prerequisites
-- Node.js (version 12 or higher)
+- Node.js 
 - npm or yarn
 
 ##### Setup
 Clone the repository
 
 git clone https://github.com/Alemu52502/reactES-webpack.git
+
 Navigate to the project directory
 
 cd reactES-webpack
+
 Install dependencies
 
 npm install
+
 Set up environment variables
 
 Create a .env file in the root directory and add the following:
 
-env
 NODE_ENV=development
 
 # Running the Application
